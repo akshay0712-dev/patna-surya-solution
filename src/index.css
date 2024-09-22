@@ -12,10 +12,13 @@
     color: rgb(0, 0, 0);
     font-family: "Balsamiq Sans", sans-serif;
 }
+body{
+    @apply dark:bg-gray-800;
 
+}
 nav .navText {
     color: aliceblue;
-    background-image: linear-gradient(to right, #f01c1c 0%, #646766 19%, #567077 42%, #494256 79%, #114e5e 100%);
+    background-image: linear-gradient(to right, #31d847 0%, #8f8607 19%, #035d76 42%, #720b9b 79%, #870707 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: sans-serif;
