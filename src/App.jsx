@@ -15,11 +15,11 @@ function App() {
         <div className="flex justify-start  items-center">
           <img className="h-[15vh]" src="./image/log02.png" alt="" />
           <div className="navText text-xl md:text-4xl">
-            <span>PATNA SAURYA SOLUTION PVT. LTD.</span>
+            <span className="">PATNA SAURYA SOLUTION PVT. LTD.</span>
           </div>
         </div>
         <div className="flex flex-row-reverse md:flex-row justify-end w-[80vw] md:w-fit items-center gap-9 ">
-          <a className="font-extrabold" href="tel:+918210342249">+918210342249</a>
+          <a className="font-extrabold text-[#967252] glow-text" href="tel:+918210342249">+918210342249</a>
           <a href="tel:+918210342249">
             <span class="material-symbols-outlined bg-[#088AFF] p-1 rounded-lg text-[white] hover:scale-[1.35] transition-transform duration-200 inline-block">call</span>
           </a>
@@ -205,8 +205,8 @@ function App() {
             <div className="flex justify-start items-start cursor-pointer gap-2 my-3">
               <span className="font-bold text-lg md:text-xl text-black dark:text-white">Phone: </span>
               <span className="text-sm md:text-lg text-[#777777]">
-                <a href="tel:+918210342249">+918210342249,</a>
-                <a href="tel:+919708229773">+919708229773</a>
+                <a href="tel:+918210342249">+918210342249, </a>
+                <a href="tel:+919708229773">  +919708229773</a>
               </span>
             </div>
             <a

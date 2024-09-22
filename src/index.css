@@ -18,7 +18,7 @@ body{
 }
 nav .navText {
     color: aliceblue;
-    background-image: linear-gradient(to right, #31d847 0%, #8f8607 19%, #035d76 42%, #720b9b 79%, #870707 100%);
+    background-image: linear-gradient(to right, black 0%, rgb(106, 71, 6) 50%, rgb(94, 94, 14) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: sans-serif;
@@ -84,3 +84,8 @@ nav .navText {
 }
 
 /* ..........Services......... */
+
+
+.glow-text {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.5);
+  }
